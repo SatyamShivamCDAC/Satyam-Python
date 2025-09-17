@@ -1,10 +1,5 @@
 sentence = input('Sentence: ')
 words = sentence.split(' ')
-
-# reversedSentence = []
-# for word in words:
-#     reversedSentence.append(word[::-1])
-
 reversedSentence = []
 for word in words:
     revered_word = []

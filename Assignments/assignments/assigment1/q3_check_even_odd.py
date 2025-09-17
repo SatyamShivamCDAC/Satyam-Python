@@ -3,3 +3,6 @@ def even_odd(number):
         print(number, 'is Even.')
     else:
         print(number, 'is Odd.')
+
+numb = int(input("Number : "))
+even_odd(numb)
