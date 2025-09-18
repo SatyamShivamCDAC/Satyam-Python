@@ -6,9 +6,9 @@ class Calculator:
         return sum
 
     def sub(self,*args):
-        result = 0
+        result = 2*args[0]
         for i in args:
-            result -= i
+            result =  result - i
         return result
 
     def mul(self,*args):
@@ -22,8 +22,6 @@ class Calculator:
 
 
 
-cal = Calculator()
 
-print(cal.add(1,2,3,4,5))
 
 

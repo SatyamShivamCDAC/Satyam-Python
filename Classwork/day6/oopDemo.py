@@ -6,7 +6,7 @@ class Employee:
 
     def hello(self):
         print("EMPID : ",self.eid)
-        print("EMPName : ",self.name)
+        print("EMPName : ",self.ename)
         print("EMPSalary : ",self.esalary)
 
 
